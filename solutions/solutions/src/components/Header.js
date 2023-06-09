@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 const headerStyles = {
-  backgroundColor: "blue",
+  backgroundColor: "#CCEEFF",
   color: "white",
   padding: "10px",
 };
