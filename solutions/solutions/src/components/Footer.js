@@ -1,11 +1,12 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
 
+const copyRight = "2023";
 const Footer = () => {
   return (
     <footer>
       <div className="footer-wrapper">
-        <p>Copyright 2020</p>
+        <p>Copyright &copy; {copyRight}</p>
       </div>
     </footer>
   );
