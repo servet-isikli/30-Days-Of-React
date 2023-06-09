@@ -1,0 +1,22 @@
+.logo {
+  border-radius: 100%;
+  margin-left: 5%;
+}
+
+h3,
+p,
+h4 {
+  margin-left: 2%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills p {
+  background-color: aquamarine;
+  margin-left: 2%;
+
+  margin-top: 0px;
+}
