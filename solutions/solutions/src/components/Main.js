@@ -1,6 +1,7 @@
 import React from "react";
 import TechList from "./TechList";
 import UserCard from "./UserCard";
+import './Main.css'
 
 const Main = () => {
   return (
