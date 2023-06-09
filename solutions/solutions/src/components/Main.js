@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <main>
       <div className="main-wrapper">
-        <p>Prerequisite to get started react.js:</p>
+        <h5>Prerequisite to get started react.js:</h5>
         <ul>
           <TechList />
         </ul>
