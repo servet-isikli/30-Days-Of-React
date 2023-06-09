@@ -69,7 +69,7 @@ const Day04L22 = () => (
         type="email"
         name=""
         id=""
-        placeholder="Last Name"
+        placeholder="E-Mail"
       />
     </form>
     <div style={buttonStyle}>
