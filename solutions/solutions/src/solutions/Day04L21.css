@@ -1,0 +1,13 @@
+.day-04-l21 {
+  background-color: rgb(180, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: auto;
+  height: 200px;
+}
+
+

@@ -1,5 +1,15 @@
 .user-card {
   background-color: rgb(80, 133, 230);
-  color: white;
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-card img {
+  grid-row: 1;
+}
+
+.user-card h2 {
+  grid-row: 2;
 }

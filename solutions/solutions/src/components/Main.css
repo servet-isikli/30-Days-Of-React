@@ -1,7 +1,10 @@
-.header-wrapper {
+.main-wrapper {
   background-color: rgb(70, 0, 0);
   color: white;
   padding: 10px;
+}
+
+.main-wrapper h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
