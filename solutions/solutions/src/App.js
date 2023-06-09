@@ -1,12 +1,14 @@
 // import './App.css';
-import Header from './components/Header';
+import Header from "./components/Header";
+import Main from "./components/Main";
+import TechList from "./components/TechList";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
+      <Header />
+      <Main />
     </div>
   );
 }

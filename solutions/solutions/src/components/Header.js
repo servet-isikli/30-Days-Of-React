@@ -5,6 +5,7 @@ const headerStyles = {
   backgroundColor: "#CCEEFF",
   color: "white",
   padding: "10px",
+
 };
 
 const Header = () => {
