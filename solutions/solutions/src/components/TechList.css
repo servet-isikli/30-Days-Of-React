@@ -1,0 +1,7 @@
+.tech-list{
+  /* background-color: rgb(80, 133, 230); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
