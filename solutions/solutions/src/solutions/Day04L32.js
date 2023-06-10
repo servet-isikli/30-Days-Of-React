@@ -6,13 +6,13 @@ const Day04L32 = () => {
   return (
     <div>
       <img className="logo" src={logoImage} alt="logoImage" />
-      <h3 className="logoo">SOLFA ART</h3>
+      <h3>SOLFA ART</h3>
       <p>Digital Solutions</p>
       <h4>SKILLS</h4>
 
       <div className="skills">
         <p>HTML</p>
-        <p>css</p>
+        <p>CSS</p>
         <p>Sass</p>
         <p>JS</p>
         <p>React</p>
