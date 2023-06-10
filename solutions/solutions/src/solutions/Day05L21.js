@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Day05L21 = () => {
-  return (
-    <div>Day05L21</div>
-  )
-}
+const Day05L21 = (props) => {
+  return <div>I am Child Prop{props.data}</div>;
+};
 
-export default Day05L21
+export default Day05L21;
