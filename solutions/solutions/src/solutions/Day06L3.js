@@ -15,7 +15,28 @@ const Day06 = () => {
     { country: "Japan", population: 126960000 },
   ];
 
-  return <div></div>;
+  // const populationItems = tenHighestPopulation.map((item, index) => (
+  //   <li key={index}>
+  //     {item.country} - {item.population}
+  //   </li>
+  // ));
+
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}> 30 Days Of React</h1>
+      <p style={{ textAlign: "center" }}>
+        World population Ten most populated countries
+      </p>
+
+      <p>
+        {tenHighestPopulation.map((item, index) => (
+          <ul key={index}>
+            {item.country} - {item.population}
+          </ul>
+        ))}
+      </p>
+    </div>
+  );
 };
 
 export default Day06;
