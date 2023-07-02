@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Day06 = () => {
-  return (
-    <div>React Hooks
+  return <div>React Hooks</div>;
+};
 
-
-    </div>
-  )
-}
-
-export default Day06
+export default Day06;
