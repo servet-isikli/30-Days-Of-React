@@ -35,6 +35,8 @@ const Day06 = () => {
           </ul>
         ))}
       </p>
+
+      <p>test</p>
     </div>
   );
 };

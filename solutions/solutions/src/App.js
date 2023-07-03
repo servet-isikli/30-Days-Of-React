@@ -9,6 +9,7 @@ import Day04L32 from "./solutions/Day04L32";
 import Day05L21 from "./solutions/Day05L21";
 import Day06 from "./solutions/Day06";
 import Day06L3 from "./solutions/Day06L3";
+import Day06L31 from "./solutions/Day06L31";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Day06 />
       <h3>06-Day: Level-3</h3>
       <Day06L3 />
+      <h3>06-Day: Level-3</h3>
+      <Day06L31 />
     </div>
   );
 }
