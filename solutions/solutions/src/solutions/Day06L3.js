@@ -22,8 +22,7 @@ const Day06 = () => {
   //   </li>
   // ));
 
-
-  const [currentData, setCurrentData] = useState('currentData');
+  const [currentData, setCurrentData] = useState("currentData");
 
   useEffect(() => {
     const fetchData = () => {
@@ -62,7 +61,7 @@ const Day06 = () => {
           </ul>
         ))}
       </ul>
-<h1>useState</h1>
+      <h1>useState</h1>
       <h3>{currentData.name}</h3>
       <p>{currentData.capital}</p>
     </div>
