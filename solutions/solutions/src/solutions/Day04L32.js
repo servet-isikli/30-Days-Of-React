@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import logoImage from "../solutions-assets/logo-image.png";
 import "./Day04L32.css";
 
 const Day04L32 = () => {
+  const [backgroundColor, setBackgroundColor] = useState("orange");
+
+  const changeBackground = () => {
+    const newColor = backgroundColor === "orange" ? "pink" : "orange";
+    setBackgroundColor(newColor);
+  };
+
   return (
-    <div>
+    <div style={{ backgroundColor }}>
+      <button onClick={changeBackground}>Change Background</button>
+
       <img className="logo" src={logoImage} alt="logoImage" />
       <h3>SOLFA ART</h3>
       <p>Digital Solutions</p>
