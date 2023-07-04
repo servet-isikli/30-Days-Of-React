@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Day06L3Data from "./Day06L3Data";
 
 const Day06 = () => {
   const tenHighestPopulation = [
@@ -21,6 +22,21 @@ const Day06 = () => {
   //   </li>
   // ));
 
+  const [currentData, setCurrentData] = useState("currentData");
+
+  useEffect(() => {
+    const fetchData = () => {
+      // Rastgele bir veri seç
+      const randomIndex = Math.floor(Math.random() * Day06L3Data.length);
+      const randomData = Day06L3Data[randomIndex];
+
+      // Veriyi güncelle
+      setCurrentData(randomData);
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div>
       <h1 style={{ textAlign: "center" }}> 30 Days Of React</h1>
@@ -36,7 +52,18 @@ const Day06 = () => {
         ))}
       </p>
 
-      <p>test</p>
+      <p>Day06L3Data Mapping</p>
+      <ul>
+        {Day06L3Data.map((data, index) => (
+          <ul key={index}>
+            {" "}
+            {data.name}-{data.capital}{" "}
+          </ul>
+        ))}
+      </ul>
+      <h1>useState</h1>
+      <h3>{currentData.name}</h3>
+      <p>{currentData.capital}</p>
     </div>
   );
 };
